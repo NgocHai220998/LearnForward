@@ -33,7 +33,7 @@ module.exports = {
     'key-spacing': ['error', { beforeColon: false }],
     'keyword-spacing': ['error', { before: true, after: true }],
     'no-cond-assign': ['error', 'always'],
-    'no-console': 'error',
+    'no-console': ['error', { allow: ['warn'] }],
     'no-empty': ['error', { allowEmptyCatch: true }],
     'no-dupe-args': 'error',
     'no-debugger': 'error',
